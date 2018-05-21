@@ -1,4 +1,13 @@
 target/
+test-output/
+.classpath
+.project
+.settings
+hooks/
+info/
+HEAD
+description
+config
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup
