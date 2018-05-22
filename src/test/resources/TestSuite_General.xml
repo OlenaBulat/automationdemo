@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="General test suite" configfailurepolicy="continue">
+	<suite-files>
+		<!-- Chrome suite -->
+		<suite-file path="TestSuite_chrome.xml" />
+		<!-- Firefox suite -->
+		<suite-file path="TestSuite_firefox.xml" />
+		<!-- Edge suite -->
+		<suite-file path="TestSuite_edge.xml" />
+	</suite-files>
+</suite>

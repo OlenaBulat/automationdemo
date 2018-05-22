@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="TestingEdge" verbose="4"
+	data-provider-thread-count="1" configfailurepolicy="continue">
+	<parameter name="browserName" value="edge" />
+	<test name="SingleTestSuiteEdge">
+		<classes>
+			<class name="demo.automation.AppTest" />
+		</classes>
+	</test>
+
+</suite>
